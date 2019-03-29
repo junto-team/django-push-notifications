@@ -7,6 +7,8 @@ django-push-notifications
 	:target: https://jazzband.co/
 	:alt: Jazzband
 
+ОТЛИЧИЕ ОТ ОРИГИНАЛЬНОГО ПРОЕКТА: сделал поле GCMDevice.device_id текстовым полем
+
 A minimal Django app that implements Device models that can send messages through APNS, FCM/GCM and WNS.
 
 The app implements three models: ``GCMDevice``, ``APNSDevice`` and ``WNSDevice``. Those models share the same attributes:
